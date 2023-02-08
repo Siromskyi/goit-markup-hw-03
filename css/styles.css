@@ -19,6 +19,12 @@ body {
 ul {
   list-style-type: none;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .hero-title {
   color: var(--white);
   max-width: 496px;
@@ -54,6 +60,13 @@ ul {
 
 .our-team {
   background-color: var(--white-three);
+}
+.team-name {
+  padding: 32px 16px;
+}
+
+.name-projects {
+  padding: 32px 0px;
 }
 
 .footer {
@@ -147,6 +160,10 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-right: 38px;
+  padding-bottom: 24px;
+  padding-left: 156px;
 }
 .logo:focus {
   background-color: var(--white);
