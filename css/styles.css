@@ -7,6 +7,10 @@
   --white-two: #e7e9fc;
   --white-three: #f4f4fd;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   color: var(--navy);
@@ -25,6 +29,21 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+.section {
+  padding: 120px, 0;
+}
+
 .hero-title {
   color: var(--white);
   max-width: 496px;
@@ -36,6 +55,7 @@ img {
 
 .section-hero {
   background-color: var(--navy);
+  padding: 120px, 0;
 }
 
 .hero-text {
@@ -122,6 +142,13 @@ img {
   color: var(--white);
 }
 
+.links-list {
+  padding-top: 24px;
+  padding-right: 166px;
+  padding-bottom: 24px;
+  padding-left: 38px;
+}
+
 .header-links {
   font-weight: 500;
   font-size: 16px;
@@ -129,7 +156,9 @@ img {
   text-decoration: none;
   color: var(--navy);
   letter-spacing: 0.02em;
+  margin-right: 40px;
 }
+
 .header-links:hover {
   color: var(--cl-hover);
 }
@@ -150,6 +179,20 @@ img {
 .contacts:focus {
   color: var(--blue);
   background-color: var(--white);
+}
+
+.mail {
+  padding-top: 24px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  padding-left: 166px;
+}
+
+.tel {
+  padding-top: 24px;
+  padding-right: 156px;
+  padding-bottom: 24px;
+  padding-left: 20px;
 }
 .logo {
   color: var(--navy);
