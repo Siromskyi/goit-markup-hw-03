@@ -80,6 +80,7 @@ h6 {
 .links-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .header-links:hover {
   color: var(--cl-hover);
@@ -88,9 +89,10 @@ h6 {
   color: var(--cl-hover);
   background-color: var(--white);
 }
-.page-nav {
+.header-nav {
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
 .contacts {
   font-size: 16px;
@@ -116,15 +118,14 @@ h6 {
 }
 
 .logo-header {
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 .mail {
-  padding-right: 40px;
+  margin-right: 40px;
 }
 
 .tel {
-  padding-right: 156px;
 }
 .logo {
   color: var(--navy);
@@ -181,7 +182,6 @@ h6 {
 .text {
   font-size: 16px;
   line-height: 1.5;
-  width: 264px;
 }
 .text-our-tem {
   text-align: center;
@@ -191,6 +191,11 @@ h6 {
 }
 .team-name {
   padding: 32px 16px;
+  background-color: var(--white);
+  width: 264px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name-projects {
@@ -199,15 +204,17 @@ h6 {
 
 .list {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .list-general {
+  align-items: center;
 }
 .list-general:not(:last-child) {
   margin-right: 24px;
 }
 .list-advantages {
-  width: 264px;
+  flex-basis: 264px;
 }
 
 .footer {
@@ -253,6 +260,31 @@ h6 {
   background-color: var(--cl-hover);
 }
 
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.container-button-navigation {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 72px;
+  gap: 24px;
+}
+.button-navigation {
+  display: flex;
+  padding: 0px;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
 .filter-button {
   cursor: pointer;
   background-color: var(--white-two);
@@ -264,6 +296,7 @@ h6 {
   letter-spacing: 0.04em;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
+  padding: 12px 24px;
 }
 .filter-button:hover,
 :focus {
