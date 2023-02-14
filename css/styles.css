@@ -61,11 +61,12 @@ h6 {
 .container-header {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin: 0 auto;
-  gap: 40px;
 }
+
+.bottom-frame {
+  border-bottom: 1px solid var(--white-two);
+}
+
 .header-links {
   font-weight: 500;
   font-size: 16px;
@@ -73,6 +74,7 @@ h6 {
   text-decoration: none;
   color: var(--navy);
   letter-spacing: 0.02em;
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -118,6 +120,7 @@ h6 {
 }
 .address {
   margin-left: auto;
+  font-style: normal;
 }
 
 .logo-header {
@@ -181,6 +184,11 @@ h6 {
   font-size: 16px;
   line-height: 1.5;
 }
+
+.section-we-doing {
+  padding-top: 0px;
+}
+
 .text-our-tem {
   text-align: center;
 }
@@ -188,7 +196,7 @@ h6 {
   background-color: var(--white-three);
 }
 .team-name {
-  padding: 32px 16px;
+  padding: 32px 0;
   background-color: var(--white);
 
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -205,21 +213,14 @@ h6 {
   margin-right: 24px;
 }
 .list-advantages {
-  flex-basis: 264px;
+  flex-basis: calc((100%-72) / 4);
 }
 
 .footer {
   background-color: var(--navy);
-
-  margin: 0px, auto;
-}
-.container-footer {
-  margin: 0 auto;
-  align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 100px;
   padding-bottom: 100px;
+  margin: 0px, auto;
 }
 
 .text-footer {
@@ -260,40 +261,25 @@ h6 {
 
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  gap: 48px 24px;
   flex-wrap: wrap;
 }
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .projects-text {
-  display: flow-root;
   border-left: 1px solid var(--white-two);
   border-right: 1px solid var(--white-two);
   border-bottom: 1px solid var(--white-two);
   padding: 32px 0px;
+  padding-left: 16px;
 }
-.container-button-navigation {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 72px;
-  gap: 24px;
-}
+
 .button-navigation {
   display: flex;
-  padding: 0px;
   gap: 24px;
-  align-items: center;
   justify-content: center;
+  margin-bottom: 72px;
 }
 .filter-button {
   cursor: pointer;
