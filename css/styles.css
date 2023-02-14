@@ -201,9 +201,6 @@ h6 {
   align-items: center;
   justify-content: center;
 }
-.list-general {
-  align-items: center;
-}
 .list-general:not(:last-child) {
   margin-right: 24px;
 }
@@ -274,7 +271,9 @@ h6 {
 }
 .projects-text {
   display: flow-root;
-  border: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
   padding: 32px 0px;
 }
 .container-button-navigation {
