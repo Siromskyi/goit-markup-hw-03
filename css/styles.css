@@ -259,12 +259,12 @@ h6 {
   padding-right: 0;
 }
 
-.portfolio-list {
+.projects-list {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
 }
-.portfolio-item {
+.projects-item {
   flex-basis: calc((100% - 48px) / 3);
 }
 .projects-text {
