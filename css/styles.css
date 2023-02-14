@@ -271,9 +271,9 @@ h6 {
 }
 .projects-text {
   display: flow-root;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid var(--white-two);
+  border-right: 1px solid var(--white-two);
+  border-bottom: 1px solid var(--white-two);
   padding: 32px 0px;
 }
 .container-button-navigation {
